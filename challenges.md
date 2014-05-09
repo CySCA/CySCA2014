@@ -85,6 +85,18 @@ Gain privileged access on the domain controller and retrieve the flag.
 
 ## Android Forensics
 
+You will require the following files:
+* <a href="/files/99de51b8da4623ddc2fcc18b9063f81e.7z">99de51b8da4623ddc2fcc18b9063f81e.7z</a> - The Android 4.1.2 (Goldfish 2.6.29 Kernel) memory dump
+* <a href="/files/goldfish-2.6.29.zip">goldfish-2.6.29.zip</a> - Volatility profile that will enable the memory dump to be analysed.
+* <a href="/files/system_framework.7z">system_framework.7z</a> - Files from framework the folder under the /system partition. These are required to decompile optimised Dalvik executables for this version (API 16) of Android.
+
+Instructions to start the analysis:
+
+1. Install the latest volatility from subversion.
+2. svn checkout http://volatility.googlecode.com/svn/trunk/ volatility-read-only
+3. Copy the goldfish-2.6.29.zip into volatility-read-only/volatility/plugins/overlays/linux/
+4. Extract the memory dump
+
 ### Flappy Bird
 
 120 points
