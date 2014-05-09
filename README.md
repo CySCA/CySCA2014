@@ -1,7 +1,7 @@
 CySCA2014
 =========
 
-# What is CySCA?
+### What is CySCA?
 
 CySCA is Australia’s only national cyber security competition. It’s designed to excite, inspire, attract and help Australia’s talented people to become our next generation of cybersecurity professionals.
 
@@ -9,7 +9,7 @@ Organised and conducted by the Australian Government, Telstra and Australian uni
 
 CySCA 2014 is Australia's third national cyber security competition.
 
-#What's the game about?
+### What's the game about?
 
 CySCA 2014 will test a range of skills that are relevant in the cyber security field.
 
